@@ -18,3 +18,15 @@ print(values[-1])
 print (type(values))
 print(values[1])
 print(values[2:5])
+
+values.insert(2, "testme")
+print(values)
+
+values.append("ohwow")
+print(values)
+
+values[3] = "mygod"
+print(values)
+
+del values[-1]
+print(values)
