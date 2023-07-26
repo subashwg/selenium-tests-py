@@ -30,3 +30,5 @@ print(values)
 
 del values[-1]
 print(values)
+
+print("test")
