@@ -1,4 +1,4 @@
-#if/else condition
+#IF/ELSE condition
 
 greeting = "Buenos dias"
 maths = 45
@@ -10,7 +10,7 @@ else:
     print ("no, lo siento")
 
 
-#for loop condition
+#FOR LOOP condition
 
 numbers = [1,2,3,4,6,8,9]
 for i in numbers:
@@ -40,3 +40,13 @@ print ("********************")
 #printing numbers serially
 for m in range(20):
     print(m)
+print("**************")
+
+#WHILE LOOP condition
+#loop runs until it is false
+
+test = 90
+while test>6:
+    if test != 10:
+        test = test / 3
+        print(test)
