@@ -45,8 +45,19 @@ print("**************")
 #WHILE LOOP condition
 #loop runs until it is false
 
-test = 90
-while test>6:
-    if test != 10:
-        test = test / 3
-        print(test)
+# test = 90
+# while test>6:
+#     if test != 10:
+#         test = test / 3
+#         print(test)
+# print("******************************")
+
+#break condition in WHILE LOOP
+
+nep = 171
+while nep>165:
+    if nep == 169:
+        break
+    print(nep)
+    nep = nep - 1
+print("Execution is completed successfully")
