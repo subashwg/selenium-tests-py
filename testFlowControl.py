@@ -57,7 +57,12 @@ print("**************")
 nep = 171
 while nep>165:
     if nep == 169:
+        nep = nep -1
+        continue
+    if nep == 164:
         break
     print(nep)
     nep = nep - 1
 print("Execution is completed successfully")
+
+#
