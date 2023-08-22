@@ -38,8 +38,12 @@ class EmployeeRecords:
         self.salary = salary
         self.email = lname + '.'+ '@testcompany.com'
 
+    def fullname(self):
+        return'{} {}'.format(self.fname, self.lname)
+
 emp1 = EmployeeRecords(236, 'Binod', 'Bashyal', 10000)
 emp2 = EmployeeRecords(745, 'Sailesh', 'Neupane', 50000)
 
 print(emp1.email)
 print(emp2.fname)
+print(emp2.fullname())
